@@ -16,6 +16,7 @@
         android:hint="Name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:inputType = "text"
         >
 
     </EditText>
@@ -28,6 +29,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
         android:hint="Password 0 to 9"
+        android:inputType = "numberPassword"
     >
 
 </EditText>
@@ -39,6 +41,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
         android:hint="Email"
+        android:inputType = "textEmailAddress"
     >
 
 </EditText>
@@ -51,6 +54,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Date"
+        android:inputType = "date"
         >
     </EditText>
     <EditText
@@ -61,6 +65,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:hint="Phone Number"
+        android:inputType = "numberDecimal"
     >
 </EditText>
 
