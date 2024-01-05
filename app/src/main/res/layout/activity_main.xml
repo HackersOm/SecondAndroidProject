@@ -76,6 +76,7 @@
     android:layout_height="wrap_content"
     android:id = "@+id/bt1"
     android:text = "Submit"
+    android:onClick="display"
     >
 </Button>
 
